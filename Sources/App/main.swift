@@ -11,7 +11,7 @@ drop.get { req in
 drop.resource("posts", PostController())
 
 drop.get("welcome") { request in
-    return "Welcome to haar.is!"
+    return "Welcome to haar.is! How's it going?"
 }
 
 drop.run()
